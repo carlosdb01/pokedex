@@ -1,0 +1,86 @@
+*body{
+ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+:root{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ 
+  
+}
+.flex-center{
+  display: flex;
+  padding-left: 2rem;
+  align-items: center;
+}
+
+#fondo{
+  width: 100%;
+  height: 800px;
+background-image: url(https://wallpapermoon.com/wp-content/uploads/2021/07/00160193.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: white ;
+border :10px;
+
+}
+
+.welcome-text{
+ color: tomato;
+}
+
+.user-color{
+  color: black;
+}
+.article-fotter{
+  height: 150px;
+  background-color: rgb(255, 45, 45);
+}
+.footer{
+  background-color: blueviolet;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(163, 255, 224, 0.358);
+  flex-flow:  row wrap ;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.card{
+  width: 250px;
+  height: 400px;
+  background-color: rgb(236, 255, 236);
+  border-radius: 25px;
+  margin: 2rem;
+  border: 10px solid lightblue;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+}
+
+
+.pokemons{
+  height: 90px;
+}
+.section-button{
+  display: flex;
+  
+  justify-content: space-around;
+}
+.button-section-pag{
+  display:flex;
+  justify-content: space-around;
+ 
+}
+
+.header-pokedex{
+  background-color: aquamarine;
+
+width: 40px;
+
+}
